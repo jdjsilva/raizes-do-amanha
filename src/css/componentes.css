@@ -1,0 +1,113 @@
+.btn {
+  font-family: var(--fonte-corpo);
+  font-weight: 600;
+  background: var(--cor-primaria);
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.btn:hover {
+  background: var(--cor-primaria-escura);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--cor-secundaria);
+  outline-offset: 2px;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.badge {
+  display: inline-flex;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: var(--fonte-tamanho-5);
+  font-weight: 600;
+  background: var(--cor-neutra-400);
+}
+
+.alerta {
+  padding: var(--espaco-3);
+  border-radius: 8px;
+  border-left: 4px solid var(--cor-primaria);
+  background: var(--cor-neutra-100);
+  margin-bottom: var(--espaco-2);
+}
+
+.alerta--sucesso { border-color: var(--cor-primaria); }
+.alerta--erro { border-color: #B3261E; color: #B3261E; }
+
+/* Formulário */
+fieldset {
+  border: 1px solid var(--cor-neutra-400);
+  border-radius: 8px;
+  padding: var(--espaco-3);
+  margin-bottom: var(--espaco-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+}
+
+legend {
+  font-family: var(--fonte-titulo);
+  padding: 0 8px;
+}
+
+label {
+  font-weight: 600;
+  font-size: var(--fonte-tamanho-5);
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid var(--cor-neutra-400);
+  font-family: var(--fonte-corpo);
+  transition: border-color 0.2s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: var(--cor-primaria);
+  box-shadow: 0 0 0 3px rgba(46,125,50,0.15);
+}
+
+input.campo-erro {
+  border-color: #B3261E;
+}
+
+input.campo-sucesso {
+  border-color: var(--cor-primaria);
+}
+
+.mensagem-erro {
+  color: #B3261E;
+  font-size: var(--fonte-tamanho-5);
+  min-height: 18px;
+}
+
+/* Toast */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: var(--cor-primaria-escura);
+  color: white;
+  padding: 14px 20px;
+  border-radius: 8px;
+  transform: translateY(20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.toast.ativo {
+  transform: translateY(0);
+  opacity: 1;
+}

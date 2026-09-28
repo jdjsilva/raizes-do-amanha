@@ -1,13 +1,44 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>raizes-do-amanha</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Raízes do Amanhã</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/variaveis.css">
+  <link rel="stylesheet" href="/src/css/reset.css">
+  <link rel="stylesheet" href="/src/css/estilos.css">
+  <link rel="stylesheet" href="/src/css/componentes.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <img src="/src/imagens/logo.png" alt="Logo do Instituto Raízes do Amanhã" class="cabecalho__logo">
+
+    <button class="nav__hamburguer" id="botaoMenu" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav__lista" id="listaNav">
+        <li><a href="#inicio" class="nav__link" data-rota="inicio">Início</a></li>
+        <li><a href="#projetos" class="nav__link" data-rota="projetos">Projetos</a></li>
+        <li><a href="#cadastro" class="nav__link" data-rota="cadastro">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- O JavaScript vai injetar o conteúdo de cada "página" aqui dentro -->
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2026 Instituto Raízes do Amanhã. Todos os direitos reservados.</p>
+  </footer>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
 </html>

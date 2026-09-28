@@ -1,0 +1,33 @@
+:root {
+  --cor-primaria: #2E7D32;
+  --cor-primaria-escura: #1B5E20;
+  --cor-primaria-clara: #66BB6A;
+
+  --cor-secundaria: #E8A93B;
+  --cor-secundaria-escura: #B87F1F;
+
+  --cor-apoio: #6D4C33;
+
+  --cor-neutra-100: #FFFFFF;
+  --cor-neutra-200: #F7F2E7;
+  --cor-neutra-400: #C9C1AD;
+  --cor-neutra-700: #4A4438;
+  --cor-neutra-900: #201C14;
+
+  --fonte-titulo: 'Fraunces', serif;
+  --fonte-corpo: 'Work Sans', sans-serif;
+
+  --fonte-tamanho-1: 2.5rem;
+  --fonte-tamanho-2: 2rem;
+  --fonte-tamanho-3: 1.5rem;
+  --fonte-tamanho-4: 1rem;
+  --fonte-tamanho-5: 0.875rem;
+
+  --espaco-1: 4px;
+  --espaco-2: 8px;
+  --espaco-3: 16px;
+  --espaco-4: 24px;
+  --espaco-5: 32px;
+  --espaco-6: 48px;
+  --espaco-7: 64px;
+}
