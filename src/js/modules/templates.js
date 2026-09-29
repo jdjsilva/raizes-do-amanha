@@ -1,7 +1,7 @@
 const projetos = [
-  { titulo: 'Projeto Educação', imagem: '/src/imagens/projeto-educacao.jpg', categoria: 'educacao', descricao: 'Reforço escolar e alfabetização digital.' },
-  { titulo: 'Segurança Alimentar', imagem: '/src/imagens/projeto-alimentacao.jpg', categoria: 'alimentacao', descricao: 'Cestas básicas e hortas comunitárias.' },
-  { titulo: 'Geração de Renda', imagem: '/src/imagens/projeto-renda.jpg', categoria: 'renda', descricao: 'Cursos profissionalizantes.' }
+  { titulo: 'Projeto Educação', imagem: '/imagens/projeto-educacao.jpg', categoria: 'educacao', descricao: 'Reforço escolar e alfabetização digital.' },
+  { titulo: 'Segurança Alimentar', imagem: '/imagens/projeto-alimentacao.jpg', categoria: 'alimentacao', descricao: 'Cestas básicas e hortas comunitárias.' },
+  { titulo: 'Geração de Renda', imagem: '/imagens/projeto-renda.jpg', categoria: 'renda', descricao: 'Cursos profissionalizantes.' }
 ];
 
 export function criarCardProjeto(projeto) {

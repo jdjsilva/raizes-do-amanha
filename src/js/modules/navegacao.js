@@ -12,7 +12,7 @@ function renderInicio() {
       <p>Fortalecendo famílias através de educação, segurança alimentar e geração de renda.</p>
       <a href="#cadastro" class="btn">Quero fazer parte</a>
     </div>
-    <img src="/src/imagens/equipe-voluntarios.jpg" alt="Voluntários em ação" class="hero__imagem">
+    <img src="/imagens/equipe-voluntarios.jpg" alt="Voluntários em ação" class="hero__imagem">
   `;
   return secao;
 }
